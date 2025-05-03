@@ -1,0 +1,24 @@
+
+#it will print end to end 
+print('a', end = ' ')
+print('b', end = ' ')
+
+#it will print seperately
+print('a', sep = ' ')
+print('b', sep = ' ')
+
+
+
+#absolute value
+print(abs(-3.5))
+
+#it will do round off digits
+print(round(0.345678,4))
+
+#3power5
+print(pow(3,5))
+
+type casting 
+#otherthan 0 is all true even negative integers also
+print(int(float('3.14')))
+above line of typecasting we cant directly convert 3.14 to int bcz it is float inside a string so first we should convert to float then int
