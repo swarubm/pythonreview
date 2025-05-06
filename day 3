@@ -1,0 +1,7 @@
+*only if condition is also used
+  if (n%5 == 0):
+  |       if (n%5 == 0):
+  |        |
+  |        |print
+  |      else 
+  else
