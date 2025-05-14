@@ -1,0 +1,138 @@
+data structures
+list : 
+l = [ 1,3,4,5,6,7]
+  l1 = ["a","c","b","m","s"]  ,,,,,,, is important for seperation in this
+  indexes starts from [0] when we are accessing from left
+  indexes starts from [-1] when we are accessing from right 
+
+  #modifying ;ist
+  l1[2] = "s"
+
+  #slicing
+  [start:stop:step]
+  
+  #appending 
+  l1.append("y")
+
+  #remove
+  l1.remove("y")
+
+  #length
+  print(len(l1))
+
+  l2 = [1,2,3,4,6,4,3,2,1]
+
+  #sorted 
+  l2 = [some no seperated by , comma]
+  print(sorted(l2))
+
+  #findelements   it will print index of the mentioned string
+  print(lst.index("s"))
+
+  #index
+  family = ["maheshwarappa", "jyothi", "spoorthy"]        output is 2 it will print index of the string 
+family.index("spoorthy")
+
+
+  #count
+  family = ["maheshwarappa", "jyothi", "spoorthy","spoorthy","spoorthy"]        output is 3 it will print counting of the string 
+family.index("spoorthy")
+
+
+  #extend                                                                                     
+  family = ["maheshwarappa", "jyothi","spoorthy"]                                                                                                       this is wrong bcz we should add to the list or extend it inside
+family.extend("swaroop")                                 output ['maheshwarappa', 'jyothi', 'spoorthy', 's', 'w', 'a', 'r', 'o', 'o', 'p']                    [square bracket]
+print(family)
+
+
+  family = ["maheshwarappa", "jyothi","spoorthy"]
+family.extend(["swaroop"])                              output ['maheshwarappa', 'jyothi', 'spoorthy', 'swaroop']
+print(family)
+
+
+  #minimum and maximum
+  l2 = [1,4,6,80,43,68]
+print(min(l2))
+print(max(l2))                               op= 1 and 80
+
+#for loop direct method
+  l2 = [1,4,6,80,43,68]
+for i in l2:                               op  it will print  all elements in the lis in a vertical way
+  print(i)
+
+  
+#for loop indirect or indexing method                                       
+l2 = [1,4,6,80,43,68]
+for i in range (len(l2)):           
+  print(i,l2[i]) 
+
+  op 0 1
+1 4
+2 6
+3 80
+4 43
+5 68
+
+
+  #reverse for loop
+  l2 = [1,4,6,80,43,68]
+for i in range (len(l2)-1,-1,-1):
+  print(i,l2[i]) 
+
+op
+  5 68
+4 43
+3 80
+2 6
+1 4
+0 1
+
+
+a. Concatenation:
+Lists can be concatenated using the + operator.
+
+
+
+
+1
+Student_info = [21, "Rose", "CSE", 20, 30, 50, 120]
+2
+Student2_info = [22, "John", "ME", 40, 40, 50, 130]
+3
+print(Student_info + Student2_info)
+
+[21, 'Rose', 'CSE', 20, 30, 50, 120, 22, 'John', 'ME', 40, 40, 50, 130]
+[21, 'Rose', 'CSE', 20, 30, 50, 120, 22, 'John', 'ME', 40, 40, 50, 130]
+b. Repetition:
+Lists can be repeated using the * operator.
+
+
+
+
+1
+Student_info = [21, "Rose", "CSE", 20, 30, 50, 120]
+2
+print(Student_info * 2)
+
+[21, 'Rose', 'CSE', 20, 30, 50, 120, 21, 'Rose', 'CSE', 20, 30, 50, 120]
+[21, 'Rose', 'CSE', 20, 30, 50, 120, 21, 'Rose', 'CSE', 20, 30, 50, 120]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
