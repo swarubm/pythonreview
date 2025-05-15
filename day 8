@@ -1,1 +1,88 @@
 multidimensional list 
+lst = [[1,2,3],[3,4,5],[6,7,8]]
+print(lst[0])                         output = [1, 2, 3]
+
+
+#accessing elements
+
+lst = [[1,2,3],[3,4,5],[6,7,8]]    here [1,2,3] it is considered as 0th list next if we want to access element 0th list and 0th element is 1 nxt oth list 1stelementis2
+print(lst[0][1])                    outoput = 2
+
+#modify the element in the list
+lst = [[1,2,3],[3,4,5],[6,7,8]]
+lst[0][2] = 9
+print(lst)                          output = [[1, 2, 9], [3, 4, 5], [6, 7, 8]]
+
+lst = [[1,2,3],[3,4,5],[6,7,8]]
+lst[0] = [9]
+print(lst)                            output = [[9], [3, 4, 5], [6, 7, 8]]
+
+lst = [[1,2,3],[3,4,5],[6,7,8]]
+lst[0] = 9
+print(lst)                             output = [9, [3, 4, 5], [6, 7, 8]]
+
+
+
+lst = [[1,2,3],[3,4,5],[6,7,8]]
+lst.append([4,5,6]) 
+print(lst)                            output = [[1, 2, 3], [3, 4, 5], [6, 7, 8], [4, 5, 6]]
+
+#reverse
+lst = [[1,2,3],[3,4,5],[6,7,8]]                                                               #d2
+print(lst[::-1])                       output = [[6, 7, 8], [3, 4, 5], [1, 2, 3]]       here it is reversing lists inside list
+
+
+#printing all in list elements 
+lst = [[1,2,3],[3,4,5],[6,7,8]]
+for i in lst:
+  for j in i:                           
+    print(j)
+
+output = 1
+2
+3
+3
+4
+5
+6
+7
+8
+
+
+#if we want in a horizontal way
+List1= [ [1, 2, 3, 5], [4, 6, 7, 9], [8, 10, 11, 13] ]
+#Accesing the rows of the list
+for i in List1:
+  print(i, end = ' -- ')
+  
+#Accessing each element of a 2D-list 
+print("\n")
+for i in range(len(List1)):
+  for j in range(len(List1[i])):
+                 print(List1[i][j], end=" , ")    
+output
+[1, 2, 3, 5] -- [4, 6, 7, 9] -- [8, 10, 11, 13] -- 
+
+1 , 2 , 3 , 5 , 4 , 6 , 7 , 9 , 8 , 10 , 11 , 13 , 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
