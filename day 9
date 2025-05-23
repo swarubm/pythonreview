@@ -1,0 +1,103 @@
+list comprehension 
+  list = [1,2,3,4,5]
+lst = [i**2 for i in list]
+print(lst)     o/p =  [1, 4, 9, 16, 25]
+
+using statement
+  odd_numbers = [x for x in range(20) if x%2 !=0]
+print(odd_numbers) 
+
+
+
+
+  dictionary
+1  key should not be duplicated
+2 accessing through key values
+3  { curly braces are used}
+
+
+#initializing a dictionary
+
+family = {1:'maheshwarappa',2: 'jyothi',3:'spoorthy'}
+print(family)                                                     o/p = {1: 'maheshwarappa', 2: 'jyothi', 3: 'spoorthy'}
+
+
+
+family = {1:'maheshwarappa',2: 'jyothi',3:'spoorthy'}
+print(family[2])                                                     o/p = jyothi
+
+
+
+  family = {1:'maheshwarappa',2: 'jyothi',3:'spoorthy'}
+print(family.get(1))                                             o/p = maheshwarappa
+
+#adding or updating key values
+  family = {1:'maheshwarappa',2: 'jyothi',3:'spoorthy'}
+family[3] = 'swaroop'
+print(family)                                                               o/p ={1: 'maheshwarappa', 2: 'jyothi', 3: 'swaroop'}
+
+
+family = {1:'maheshwarappa',2: 'jyothi',3:'spoorthy'}
+family[4] = 'swaroop'
+print(family)                                                          o/p = {1: 'maheshwarappa', 2: 'jyothi', 3: 'spoorthy', 4: 'swaroop'}
+
+
+#cleaning the dictionary
+  family = {1:'maheshwarappa',2: 'jyothi',3:'spoorthy'}
+del family[3]
+print(family)                                                      o/p = {1: 'maheshwarappa', 2: 'jyothi'}
+
+
+dct.clear()  it will clear all the dictionary 
+
+
+  #iterating through dictionary
+  family = {1:'maheshwarappa',2: 'jyothi',3:'spoorthy',4:'swaroop'}
+print(family.keys())
+print(family.values())                                                        
+  
+  o/p =dict_keys([1, 2, 3, 4])
+dict_values(['maheshwarappa', 'jyothi', 'spoorthy', 'swaroop'])
+
+family = {1:'maheshwarappa',2: 'jyothi',3:'spoorthy',4:'swaroop'}
+print(family.items())
+
+  o/p = dict_items([(1, 'maheshwarappa'), (2, 'jyothi'), (3, 'spoorthy'), (4, 'swaroop')])
+
+
+  for i in family.keys():
+  print(i,family[i])  
+
+  o/p = 
+1 maheshwarappa
+2 jyothi
+3 spoorthy
+4 swaroop
+
+for i,j in family.items():
+  print(i,j)
+
+  o/p
+  1 maheshwarappa
+2 jyothi
+3 spoorthy
+4 swaroop
+
+  #check if key is present or not
+  print(1 in family)    o/p = True
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
