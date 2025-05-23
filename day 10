@@ -1,2 +1,48 @@
 multi dimensional dictionaries
+my_dict = {
+    1: "Geeks", 
+    2: "For", 
+    3: {
+        'A': "Welcome", 
+        'B': "To", 
+        'C': "Geeks"
+    }
+}
+
+o/p = 
+
+
+dct = {
+    1: {'name': 'Ashish', 'phone': 123456789},
+    2: {'name': 'Ankur', 'phone': 127398127},
+    3: {'name': 'Riya', 'phone': 127398127}
+}
+
+o/p 
+{1: {'name': 'Ashish', 'phone': 123456789},
+2: {'name': 'Ankur', 'phone': 127398127},
+3: {'name': 'Riya', 'phone': 127398127}
+
+#adding
+dct[4] = {'name': 'Prakash', 'phone': 579834795}
+print(dct)  
+o/p
+4: {'name': 'Prakash', 'phone': 579834795}}
+
+
+
+
+data = {
+    1: {'name': 'Ashish', 'phone': 123456789, 'marks': {'hin': 45, 'mth': 42, 'sci': 41}},
+    2: {'name': 'Ankur', 'phone': 127398127, 'marks': {'hin': 32, 'mth': 38, 'sci': 13}},
+    3: {'name': 'Riya', 'phone': 127398127, 'marks': {'hin': 12, 'mth': 38, 'sci': 43}}
+}
+
+print(data) 
+
+
+o/p 
+{1: {'name': 'Ashish', 'phone': 123456789, 'marks': {'hin': 45, 'mth': 42, 'sci': 41}}, 2: {'name': 'Ankur', 'phone': 127398127, 'marks': {'hin': 32, 'mth': 38, 'sci': 13}}, 3: {'name': 'Riya', 'phone...
+
+
 
