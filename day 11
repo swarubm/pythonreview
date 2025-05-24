@@ -1,0 +1,18 @@
+dictionary comprehension
+
+  
+  dct = {i:i**2 for i in range(1,6)}
+print(dct)
+  o/p = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+dct = {1:{i:i**3 for i in range(1,5)}}
+print(dct)                                   o/p= {1: {1: 1, 2: 8, 3: 27, 4: 64}}
+
+#using condition statement
+  dct = {1:{i:i**3 for i in range(1,5) if i%2 == 0}}
+print(dct)                                               o/p = {1: {2: 8, 4: 64}}
+
+#dictionaries from list 
+family = ['spoorthy','jyothi','maheshwarapa']
+dct = {i:len(i) for i in family}
+print(dct)                                                   o/p = {'spoorthy': 8, 'jyothi': 6, 'maheshwarapa': 12}
